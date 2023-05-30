@@ -1,0 +1,35 @@
+
+;Mobile responsibe - Make it mobile responsive to make the user experience much better.
+    //make it mobile first
+
+;Login and Register - It is important to gather information for users and for security and user experience.
+    //make a complex and secure login system
+
+;User Profile - Users can manage their personal information, view their booking history, and make changes 
+    for their personal information.
+    // make a good ui for profile, add a picture not mandatory
+
+;Dashboard - where user can see its information and bookings and the user can freely manage their bookings 
+    and include history and present or upcomming use bookings
+    //make it modern
+
+Search and Filtering - It allows users to find available bookings based on the crieteria, date/room/description/rate. 
+    Use search bars and drowpdowns
+    //make it realtime
+
+;Booking Form - User Friendly booking form that collects necessary information from users. Make sure 
+    the user experience is good.
+    //
+
+;Booking calendar - When the user is attempt to book a calendar view will display to help user visualize 
+    availability and make bookings, allow the user to navigae different dates and view availability details.
+    //learn how to user calendar in forms
+
+;Confirmation and Notifications - Always give a feedback through alert or other notification to provide 
+    good user experiences.
+    //user alphine.js library or just jquery
+
+;Error Handling and Validation - Proper error handling and validation can provide helpful error messages 
+    when users encounter issues during the booking process. Validate user inputs and sanitize to make it more secure.
+    //make the logic more validations to give error if ever 
+ 
