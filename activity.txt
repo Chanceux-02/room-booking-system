@@ -33,3 +33,58 @@ Search and Filtering - It allows users to find available bookings based on the c
     when users encounter issues during the booking process. Validate user inputs and sanitize to make it more secure.
     //make the logic more validations to give error if ever 
  
+
+ ;;login/logout/register
+    //done
+ ;;index.php
+    //have a header that have a background of the holtel, search bar, and navigation bar(logout, user profile/admin page)
+    //showing the the feature products and some details in sliding mode
+    //showing the products with their details gallery style, when they open it the will see the full details
+ ;;user page
+    //upcomming bookings - showing the users what their upcomming bookings
+    //booking history - showing the users their booking history
+    //saved favorite services/resources - they can save the history or the past services
+    //reviews and ratings for services (like crud like and comment feature)
+ ;;admin page
+    //dashboard overview - users and their information(history), bookings, revenue total 
+    //booking management - view, modify, cancel bookings, search feature with specific detailes, date, time, service and user information
+    //content management - allow the admin to manage resources details and can do crud operation
+    //setting and configurations - allows admin to manage its profile and customize settings, such as bookings rules
+
+
+;Database Tables:
+
+    // users table: Store user information, including user profiles, preferences, and authentication details.
+    // bookings table: Capture booking details such as booking ID, user ID, resource ID, booking dates, 
+        times, and any additional notes or requests associated with the bookings.
+    // resources table: Manage details related to the available services or resources, including their 
+        descriptions, pricing, availability, and other relevant information.
+
+;Features and their Mapping:
+
+1 Header with background image, search bar, and navigation: This is a user interface component and doesn't 
+    *directly correspond to a database table.
+2 Feature products with sliding mode: This can be implemented as a separate section on the user page, 
+    showcasing featured services. The specific details of the featured products can be retrieved from the resources table.
+3 Products with details in a gallery style: This can be achieved by displaying the services from the resources table in a 
+    visually appealing gallery format. Clicking on a specific service can open a detailed view with complete service information.
+    resources table in a visually appealing gallery format. Clicking on a specific service 
+    can open a detailed view with complete service information.
+4 Upcoming bookings: Retrieve booking information from the bookings table for the logged-in user, 
+    filtering by upcoming dates.
+5 Booking history: Retrieve booking information from the bookings table for the logged-in user, 
+    filtering by past dates.
+6 Saved favorite services/resources: This can be implemented by adding a column in the users 
+    table to store the IDs of the saved services or resources.
+7 Reviews and ratings for services: Create a separate table to store reviews and ratings, 
+    including the associated service ID, user ID, comments, and ratings.
+8 Dashboard overview: This can be achieved by querying and aggregating data from the 
+    bookings table, users table, and possibly the resources table to present an overview of key metrics.
+9 Booking management: Retrieve and display booking details from the bookings table, 
+    allowing administrators to view, modify, or cancel bookings based on specific criteria.
+10 Content management: Enable admins to manage resource details by performing CRUD operations 
+    on the resources table.
+11 Settings and configurations: Allow admins to manage their profiles and customize settings 
+    by updating relevant fields in the users table.
+
+

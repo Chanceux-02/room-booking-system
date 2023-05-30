@@ -2,7 +2,7 @@
 
 <body class="my-5">
 {{-- 
-    <x-errorHandler/>
+    <x-errorHandler/> 
     <x-message/> --}}
     <h1 class="text-center mt-5">Register</h1>
 
