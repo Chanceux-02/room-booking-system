@@ -2,3 +2,16 @@
     width: 80%;
     margin: auto;
 }
+
+/* wide screen view */
+@media screen and (min-width: 600px) {
+    .center-div{
+        width: 40%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .logout{
+        padding: 0px !important;
+    }
+}
