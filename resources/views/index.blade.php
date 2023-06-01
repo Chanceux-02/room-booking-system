@@ -1,9 +1,10 @@
 @include('partials._header')
 
 <section class="header">
-    <img class="header-image" src="{{ Storage::url('profile-pics/room.jpg')}}" alt="Image">
-    <div>
+    <img class="header-image" src="{{ Storage::url('gallery-pics/cover1.jpg')}}" alt="Image">
+    <div class="_nav-container">
         <x-nav/>
+        <h6 id="_header-text" class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eveniet cumque cum, distinctio sapiente, sequi minus, tempore praesentium reprehenderit quam nihil facilis officiis impedit eius ad eligendi aperiam delectus molestias.</h6>
     </div>
 </section>
 
